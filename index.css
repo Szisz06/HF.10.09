@@ -1,0 +1,30 @@
+body {
+  background-color: #dbe640;
+}
+
+header,
+footer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+article {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article div {
+  border: 3px solid black;
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
